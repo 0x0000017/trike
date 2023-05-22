@@ -1,0 +1,270 @@
+
+
+@media screen and (max-width: 425px) {
+  html, body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%!important;
+    min-height: 100vh;
+    overflow-x: hidden!important;
+  }
+    .mainBody {
+      text-align: center ;
+    }
+    .headingSec {
+      margin-bottom: 5vw!important;
+    }
+    .bannerHeading {
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      font-size: 11vw;
+      color: #7D7990;
+      text-shadow: 3px 3px #B5B4C6;
+      letter-spacing: 5px;
+    }
+    .formSec {
+      background-color: #F1D9E5;
+      border-radius: 10px;
+    }
+    .loginHeading {
+      color: #7D7990;
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    .forgotPwBtn {
+      background-color: #B5B4C6!important;
+      color: black!important;
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+      outline: none!important;
+    }
+    .signupSec {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+      margin-right: 18vw;
+      margin-top: 7vw;
+    }
+    .signup {
+      text-decoration: underline;
+      color: black;
+    }
+
+    .upperBox {
+      background-color: #F1D9E5;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      padding-top: 10vw;
+      padding-bottom: 5vw;
+      border-radius: 20px;
+      letter-spacing: 1px;
+    }
+    .txtFields {
+      margin-top: 3vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      text-align: start!important;
+    }
+    .lastG {
+      text-align: center!important;
+    }
+    .submitSec {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .regBtn {
+      padding-left: 10vw!important;
+      padding-right: 10vw!important;
+      background-color: #7B7D94!important;
+      color: black!important;
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+      outline: none!important;
+      border-radius: 25px!important;
+    }
+    .indexnb {
+      border-bottom: 2px solid #a78a8a;
+      font-size: 0.8rem;
+      z-index: 9999;
+    }
+    .nbrand-small {
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      font-size: 4vw;
+      color: #7D7990!important;
+      text-shadow: 3px 3px #B5B4C6;
+      letter-spacing: 1px;
+    }
+
+
+    .mainContBg {
+      background-color: #7B7D94;
+    }
+    .homePic {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+    }
+
+    .address {
+      display: flex;
+      margin-top: 5vw;
+      margin-bottom: 3vw;
+    }
+    .addrDetails {
+      margin-top: 3vw;
+      margin-left: 3vw;
+    }
+    .footer {
+      background-color: #B5B4C6;
+      width: 100%;
+      z-index: 999;
+    }
+    .footerLinks {
+      text-decoration: none;
+      color: black;
+      margin-right: 5vw;
+    }
+    .cta {
+      display: flex;
+      justify-content: center;
+    }
+    .ctabtn {
+      margin-top: 5vw;
+      padding-left: 5vw!important;
+      padding-right: 5vw!important;
+      border-radius: 25px;
+    }
+    .bigHeading {
+      font-size: 10vw;
+      font-weight: 500;
+    }
+
+    .servHeading {
+      font-size: 9vw;
+      color: #7B7D94;
+    }
+    .servLdiv {
+      border-radius: 25px;
+      background-color: #7B7D94;
+      color: #fff;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      padding-top: 3vw;
+      padding-bottom: 3vw;
+      margin-bottom: 5vw;
+      display: inline-block;
+    }
+    .servBtn {
+      border-radius: 25px;
+      padding-left: 7vw;
+      padding-right: 7vw;
+      margin-top: 2vw;
+      margin-bottom: 5vw;
+    }
+
+    .datepicker {
+      position: relative;
+      display: inline-block;
+    }
+    .datepicker input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .datepicker .calendar {
+      position: relative;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      z-index: 1;
+      display: none;
+    }
+    .datepicker .calendar table {
+      width: 100%;
+    }
+    .datepicker .calendar th,
+    .datepicker .calendar td {
+      text-align: center;
+      padding: 5px;
+    }
+    .datepicker .calendar td:hover {
+      background-color: #f5f5f5;
+    }
+
+    .adminNb {
+      background-color: #454653;
+      color: #fff;
+    }
+    .adminTxt {
+      text-decoration: none;
+      color: #fff;
+    }
+    .leftSide {
+      margin-left: 2vw;
+    }
+    .rightSide {
+      margin-right: 10vw;
+      display: flex;
+      justify-content: end;
+    }
+    .leftSideLinks {
+      min-height: 100vh;
+      background-color: #F1D9E5;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .leftSideLinks a{
+      margin-bottom: 2vw;
+      margin-right: 0;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+      border-bottom: 2px solid #333;
+    }
+
+    .rightSideMain {
+      margin-top: 20vw;
+      
+    }
+    .panelContent {
+      border-radius: 25px;
+      background-color: #02C4FF;
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      margin-bottom: 2vw;
+      margin-right: 3vw;
+    }
+
+
+    .sidebar {
+      border-left: 2px solid #a78a8a;
+      background-color: #fff;
+      height: 100%;
+      text-align: center;
+    }
+    .sidebar-toggle {
+      cursor: pointer;
+    }
+    @media (max-width: 425px) {
+      .sidebar {
+        position: fixed;
+        overflow-y: scroll;
+        top: 0;
+        width: 70vw;
+        right: -550px;
+        transition: right 0.3s;
+      }
+      .sidebar.active {
+        right: 0;
+      }
+    }
+  }
