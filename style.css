@@ -1,3 +1,157 @@
+.contentSection {
+  min-height: 80vh;
+  margin-top: 5vw;
+}
+.homePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  background-color: #858A9E!important;
+}
+.right-nav {
+  display: flex;
+  justify-content: end!important;
+  align-items: end!important;
+  text-align: end!important;
+}
+.footer {
+  background-color: #858A9E;
+}
+.footerLinks {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  margin-right: 3vw;
+}
+.aboutImgSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+.aboutImgSec img{
+  margin-right: 3vw;
+}
+.abt {
+  text-align: center;
+}
+.servicePanel {
+  display: flex;
+  margin-top: 5vw;
+  flex-direction: column;
+}
+.servLdiv {
+  width: 50%;
+  border-radius: 25px;
+  background-color: #D9D9D9;
+  color: #000;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-bottom: 3vw;
+  display: inline-block;
+}
+.servBtn {
+  margin-top: 1vw;
+}
+#amountField {
+  width: 50%;
+}
+#datepickerInput {
+  width: 50%;
+}
+.calendar {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  z-index: -99;
+}
+.calendar th {
+  background-color: #ccc;
+  padding: 10px;
+}
+.calendar td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.calendar td:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.calendar .current-day {
+  background-color: #337ab7;
+  color: #fff;
+  font-weight: bold;
+}
+.contactshit {
+  display: flex;
+  flex-direction: column;
+}
+.imgCPemail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}
+.contact-img {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.contact-number {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.contact-email {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.adminpanel {
+  background-color: #0B1640!important;
+}
+.adminpanel a{
+  color: #fff!important;
+}
+.leftlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D9D9D9;
+  min-height: 100vh;
+}
+.leftlinks a{
+  margin-bottom: 2vw;
+  margin-right: 0;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+}
+.leftlinks a:hover {
+  color: #fff;
+
+}
+.kahon {
+  display: flex;
+  flex-wrap: wrap;
+}
+.panelContent {
+    border-radius: 25px;
+    background-color: #02C4FF;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 5vw;
+    padding-right: 20vw;
+    margin-top: 2vw;
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+  }
+
+
 
 
 @media screen and (max-width: 425px) {
@@ -50,7 +204,17 @@
       text-decoration: underline;
       color: black;
     }
-
+    .nav-link {
+      font-size: 3vw;
+    }
+    .aboutImgSec {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: left;
+    }
+    .aboutImgSec img{
+      margin-right: 5vw;
+    }
     .upperBox {
       background-color: #F1D9E5;
       margin-left: 5vw;
@@ -148,6 +312,7 @@
       color: #7B7D94;
     }
     .servLdiv {
+      width: 100%;
       border-radius: 25px;
       background-color: #7B7D94;
       color: #fff;
@@ -165,12 +330,19 @@
       margin-top: 2vw;
       margin-bottom: 5vw;
     }
+    #amountField {
+      width: 100%;
+    }
+    #datepickerInput {
+      width: 100%;
+    }
 
     .datepicker {
       position: relative;
       display: inline-block;
     }
     .datepicker input {
+      width: 100%;
       padding: 10px;
       border: 1px solid #ccc;
       cursor: pointer;
@@ -183,7 +355,7 @@
       border: 1px solid #ccc;
       border-radius: 5px;
       z-index: 1;
-      display: none;
+      display: block;
     }
     .datepicker .calendar table {
       width: 100%;
@@ -244,12 +416,12 @@
       margin-right: 3vw;
     }
 
-
     .sidebar {
       border-left: 2px solid #a78a8a;
       background-color: #fff;
       height: 100%;
       text-align: center;
+      z-index: 20;
     }
     .sidebar-toggle {
       cursor: pointer;

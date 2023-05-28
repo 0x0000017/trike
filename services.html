@@ -18,50 +18,55 @@
         </script>        
     </head>
     <body>
-      <nav class="navbar navbar-expand navbar-light bg-light indexnb">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container">
           <a class="navbar-brand nbrand-small" href="#">Toda Services</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link " href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Services</a>
+                <a class="nav-link active" href="services.html">Services</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link contactbtn" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item d-lg-none">
                 <a class="nav-link contactbtn" href="#" onclick="toggleSidebar()">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-        <div class="container mainBody">
+      <div class="container mainBody">
           <div class="row">
             <div class="col">
-              <h1 class="servHeading">Select Services</h1>
+              <h1 class="servHeading d-lg-none d-md-none d-sm-none ">Select Services</h1>
               <div class="row mt-4">
-                <div class="col">
+                <div class="col servicePanel">
                     <button type="button" class="btn btn-secondary servLdiv">Service 1</button>
                     <button type="button" class="btn btn-secondary servLdiv">Service 2</button>
                     <button type="button" class="btn btn-secondary servLdiv">Service 3</button>
                     <button type="button" class="btn btn-secondary servLdiv">Service 4</button>
                     <button type="button" class="btn btn-secondary servLdiv">Service 5</button>
-
                 </div>
                 <div class="col">
+                  <h1 class="servHeading d-none d-sm-block ">Select Services</h1>
                     <span>Calendar</span>
                     <div class="datepicker">
                         <input type="text" id="datepickerInput" readonly>
                         <div class="calendar" id="calendar"></div>
                     </div>
-                    <div class="amountSec">
+                    <div class="amountSec mt-3">
                         <span>Amount</span>
                         <input class="form-control" id="amountField" type="text">
                         <button type="button" class="btn btn-secondary servBtn">OK</button>
@@ -69,7 +74,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3 sidebar">
+            <div class="col-3 d-lg-none d-md-none d-sm-none sidebar">
               <br><br><br>
               <h3>Contact Us</h3>
               <div class="address">
@@ -101,22 +106,22 @@
             </div>
           </div>
             
-        </div>
+      </div>
 
-        <footer class="footer mt-auto py-3">
+      <footer class="footer mt-auto py-3">
             <div class="container footerSec">
               <div class="row">
                 <div class="col-md-12">
                   <ul class="list-inline text-center">
                     <li class="list-inline-item"><a class ="footerLinks" href="index.html">Home</a></li>
                     <li class="list-inline-item"><a class ="footerLinks" href="about.html">About Us</a></li>
-                    <li class="list-inline-item"><a class ="footerLinks" href="#">Services</a></li>
+                    <li class="list-inline-item"><a class ="footerLinks" href="services.html">Services</a></li>
                     <li class="list-inline-item"><a class ="footerLinks" href="#" onclick="toggleSidebar()">Contact</a></li>
                   </ul>
                 </div>
               </div>
             </div>
-        </footer>
-        <script src="picker.js"></script>
+      </footer>
+      <script src="picker.js"></script>
     </body>
 </html>

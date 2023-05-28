@@ -7,7 +7,7 @@
         <title>Admin Panel | Toda Services</title>
     </head>
     <body>
-        <div class="row adminNb">
+        <div class="row adminNb d-lg-none">
             <div class="col leftSide mt-2">
                 <h5>Dashboard</h2>
             </div>
@@ -15,8 +15,7 @@
                 <span><a class ="adminTxt" href ="#">admin</a></span>
             </div>
         </div>
-
-        <div class="row">
+        <div class="row d-lg-none">
             <div class="col-3 leftSideLinks">
                 <a class ="mt-2" href="#">Drivers</a>
                 <a href="#">Client</a>
@@ -40,6 +39,46 @@
                         </div>
                         <div class="panelContent">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar adminpanel navbar-expand navbar-light bg-light d-none d-lg-block">
+            <div class="container">
+              <a class="navbar-brand nbrand-small" href="#">DASHBOARD</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">admin</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="desktopView d-none d-lg-block">
+            <div class="row">
+                <div class="col-2">
+                    <div class="leftlinks">
+                        <a class ="fklinks mt-3" href="#"><h3>DRIVERS</h3></a>
+                        <a class ="fklinks" href="#"><h3>CLIENTS</h3></a>
+                        <a class ="fklinks" href="#"><h3>HIRES</h3></a>
+                        <a class ="fklinks" href="#"><h3>RESERVE</h3></a>
+                    </div>
+                </div>
+                <div class="col kahon">
+                    <div class="panelContent">
+                    </div>
+                    <div class="panelContent">
+                    </div>
+                    <div class="panelContent">
+                    </div>
+                    <div class="panelContent">
                     </div>
                 </div>
             </div>

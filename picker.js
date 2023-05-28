@@ -8,11 +8,11 @@ datepickerInput.addEventListener("click", function () {
 });
 
 // Hide the calendar when clicking outside the input field
-document.addEventListener("click", function (event) {
-  if (!datepickerInput.contains(event.target) && !calendar.contains(event.target)) {
-    calendar.style.display = "none";
-  }
-});
+// document.addEventListener("click", function (event) {
+//   if (!datepickerInput.contains(event.target) && !calendar.contains(event.target)) {
+//     calendar.style.display = "none";
+//   }
+// });
 
 // Generate the calendar
 function generateCalendar() {
@@ -78,7 +78,6 @@ dayCounter++;
 }
 calendarHTML += "</tr>";
 }
-
     calendarHTML += "</tbody>";
     calendarHTML += "</table>";
     calendar.innerHTML = calendarHTML;
@@ -87,6 +86,6 @@ function selectDate(day, month, year) {
     var selectedDate = new Date(year, month, day+1);
     var formattedDate = selectedDate.toISOString().split("T")[0];
     datepickerInput.value = formattedDate;
-    calendar.style.display = "none";
+    calendar.style.display = "block";
   }
 generateCalendar();
